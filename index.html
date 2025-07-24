@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Optimum Consultancy</title>
+
+  <!-- Google Fonts & FontAwesome for social icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="topbar">
+  <div class="container topbar-container">
+    <div class="topbar-left">
+      <span><i class="fas fa-phone-alt"></i> +977 98000 00000</span>
+      <span><i class="fas fa-envelope"></i> info@optimumconsultancy.com</span>
+    </div>
+    <div class="topbar-right">
+      <a href="#" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Main Navigation -->
+<header class="main-nav">
+  <div class="container nav-container">
+    <div class="logo">Optimum Consultancy</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle Dark Mode" title="Toggle Dark Mode">
+      <i class="fas fa-moon"></i>
+    </button>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home" data-aos="fade-up">
+    <h1>Welcome to Optimum Consultancy</h1>
+    <p>Your trusted partner for study abroad and educational consulting in Nepal.</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services" data-aos="fade-right">
+    <h2>Our Services</h2>
+    <ul class="services">
+      <li class="card" data-aos="zoom-in" data-aos-delay="100">
+        <h3>University Admissions</h3>
+        <p>We guide you through admissions to top universities worldwide.</p>
+      </li>
+      <li class="card" data-aos="zoom-in" data-aos-delay="200">
+        <h3>Visa Assistance</h3>
+        <p>Professional support for student visa applications.</p>
+      </li>
+      <li class="card" data-aos="zoom-in" data-aos-delay="300">
+        <h3>Test Preparation</h3>
+        <p>IELTS, TOEFL, GRE, and more – expert coaching to boost your scores.</p>
+      </li>
+      <li class="card" data-aos="zoom-in" data-aos-delay="400">
+        <h3>Scholarship Guidance</h3>
+        <p>Find and apply for scholarships that fit your profile.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="section" id="destinations" data-aos="fade-left">
+    <h2>Popular Destinations</h2>
+    <ul class="destinations">
+      <li class="card" data-aos="flip-left" data-aos-delay="100">
+        <img src="https://flagcdn.com/w320/gb.png" alt="UK Flag" />
+        <h3>United Kingdom</h3>
+      </li>
+      <li class="card" data-aos="flip-left" data-aos-delay="200">
+        <img src="https://flagcdn.com/w320/us.png" alt="USA Flag" />
+        <h3>United States</h3>
+      </li>
+      <li class="card" data-aos="flip-left" data-aos-delay="300">
+        <img src="https://flagcdn.com/w320/ca.png" alt="Canada Flag" />
+        <h3>Canada</h3>
+      </li>
+      <li class="card" data-aos="flip-left" data-aos-delay="400">
+        <img src="https://flagcdn.com/w320/au.png" alt="Australia Flag" />
+        <h3>Australia</h3>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section" id="stats" data-aos="fade-up">
+    <h2>Our Impact</h2>
+    <div class="stats-container">
+      <div class="stat-card">
+        <div class="stat-number" data-target="1500">0</div>
+        <div>Students Served</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="50">0</div>
+        <div>Partner Universities</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="10">0</div>
+        <div>Years of Experience</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-target="98">0</div>
+        <div>% Success Rate</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section" id="testimonials" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial active" data-aos="fade-up">
+        <p>"Optimum Consultancy made my dream to study abroad come true. Highly recommended!"</p>
+        <strong>- Sita Sharma</strong>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+        <p>"Professional and supportive throughout my visa application process."</p>
+        <strong>- Rajesh Thapa</strong>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="400">
+        <p>"Excellent coaching for IELTS helped me get the score I needed."</p>
+        <strong>- Anjali Gurung</strong>
+      </div>
+    </div>
+  </section>
+
+<!-- form section -->
+<section class="form-section">
+  <div class="form-container">
+    <h5 class="form-subtitle">Get in touch</h5>
+    <h2 class="form-title">Please drop your Inquiry here.</h2>
+    <p class="form-desc">
+      To start consultation and admission, kindly fill up the form, one of our advisers will contact you via email in less than 24 hours
+    </p>
+
+    <div class="form-grid">
+      <input type="text" placeholder="Full Name">
+      <input type="text" placeholder="Mobile Number">
+      <input type="email" placeholder="Email Id">
+      <select><option>Education level</option></select>
+      <select><option>Courses</option></select>
+      <input type="text" placeholder="Percentage">
+      <input type="text" placeholder="Age">
+    </div>
+
+    <p class="form-label">Your preferred study destination</p>
+    <div class="destination-buttons">
+      <button><img src="https://flagcdn.com/us.svg" alt=""> USA</button>
+      <button><img src="https://flagcdn.com/ca.svg" alt=""> Canada</button>
+      <button><img src="https://flagcdn.com/au.svg" alt=""> Australia</button>
+      <button><img src="https://flagcdn.com/gb.svg" alt=""> UK</button>
+      <button><img src="https://flagcdn.com/nz.svg" alt=""> New Zealand</button>
+      <button><img src="https://flagcdn.com/nl.svg" alt=""> Netherlands</button>
+    </div>
+
+    <div class="form-grid full">
+      <select><option>When do you plan to study?</option></select>
+      <textarea placeholder="Type your message here..."></textarea>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="footer" aria-label="Footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Optimum Consultancy</h3>
+        <p>Your trusted educational partner in Nepal. We help you achieve your study abroad dreams.</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:info@optimumconsultancy.com" style="color:inherit;">info@optimumconsultancy.com</a></p>
+        <p>Phone: +977 98000 00000</p>
+        <p>Address: Kathmandu, Nepal</p>
+        <div class="social-icons" role="list">
+          <a href="#" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button id="scrollTopBtn" aria-label="Scroll to top">&#8679;</button>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Your JS -->
+  <script src="script.js"></script>
+</body>
+</html>
+
